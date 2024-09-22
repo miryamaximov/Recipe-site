@@ -1,0 +1,36 @@
+/* Container for the image grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 3 images per row */
+    gap: 20px; /* Gap between images */
+  }
+  
+
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .recipe-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+  .image-container:hover .recipe-name {
+    transform: translateY(-100%);
+    
+  }
+
+  

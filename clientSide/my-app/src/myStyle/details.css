@@ -1,0 +1,53 @@
+
+.blockAll{
+    align-items: center;   
+}
+
+
+.blockOfPicture{
+    align-items: center;
+    
+}
+
+.blockOfPicture img{
+    border-radius: 5%;
+    width: 700px;
+}
+
+.blockOfPicture .heart{
+    width: 80px;
+    position: absolute;
+    top: 150px;
+   left: 30%;
+}
+
+.blockOfPicture button{
+   background: none;
+   border: none;
+}
+ 
+.blockOfDetailsRight{
+   right: 100px;
+   top: 150px;
+   position: absolute;
+   font-size: x-large;
+   font-family: monospace;
+}
+
+.blockOfDetailsLeft{
+    left: 100px;
+    top: 150px;
+    position: absolute;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.blockOfDetailsLeft h2{
+    font-weight: 900;
+}
+
+.desc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}

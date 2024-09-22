@@ -1,0 +1,17 @@
+table thead tr th{
+    text-align: center;
+}
+
+table thead{
+    background-color: rgb(216, 179, 255);
+    font-family: cursive;
+    font-size: large;
+}
+
+table tbody{
+    font-family: monospace;
+    background-color: ghostwhite;
+    font-size: medium;
+}
+
+
